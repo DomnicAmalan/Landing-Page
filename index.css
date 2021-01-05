@@ -1,0 +1,61 @@
+@font-face {
+    font-family: "chaos";
+    src: url(./assets/fonts/_CHAOS!.ttf);
+    
+}
+.container{
+    align-items: center;
+    justify-items: center;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+html, body {
+    /* width: 100%; */
+    height: 100%;
+    margin: 0;
+    
+}
+
+.main-image {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to bottom, #eff3c4, #eee9b2, #eedfa1, #efd491, #f1c982, #f2b37d, #ee9d7d, #e58a81, #bf738d, #8d658c, #58587b, #30475d);
+    border-radius: 0.2em;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    color: #30475D;
+    font-family: chaos;
+    font-size-adjust: inherit;
+    font-size: 10em;
+    letter-spacing: 0.5em;
+    font-weight: bolder;
+    text-align: -webkit-center;
+}
+p {
+    color: #30475D;
+    font-family: chaos;
+    font-size-adjust: inherit;
+    font-size: 1em;
+    letter-spacing: 0.5em;
+    font-weight: bolder;
+    text-align: -webkit-center;
+}
+
+.quotes {
+    color: #a4a5a7;
+    font-family: chaos;
+    font-size-adjust: inherit;
+    font-size: 2em;
+    letter-spacing: 0.5em;
+    font-weight: bolder;
+    /* text-align: -webkit-center; */
+    text-align:center;
+    margin: 100px;
+}
